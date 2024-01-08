@@ -25,17 +25,29 @@ console.log(schoolName);
 // Schrijf een functie genaamd compliment, die jou een complimentje geeft!
 // ---- Verwachte uitkomst bij het aanroepen van de functie: "Lekker bezig met die functies, Jan!"
 
-function compliment() {
+function giveCompliment() {
     return "Lekker bezig met die functies, Jan!";
 }
-  const message = compliment();
-console.log(message);
+
+const compliment = giveCompliment();
+console.log(compliment);
 
 /* Opdracht 3 */
 // Schrijf een functie genaamd getGrades, die een array met de cijfers 8, 8.5, 6 en 7 teruggeeft.
 // ---- Verwachte uitkomst bij het aanroepen van de functie: [8, 8.5, 6, 7]
 
+function getGrades () {
+    return [8, 8.5, 6, 7];
+}
 
+const grades = getGrades();
+console.log(grades);
 /* Opdracht 4 */
 // Schrijf een functie genaamd getDetails, die een object met daarin jouw eigen naam en achternaam teruggeeft.
 // ---- Verwachte uitkomst bij het aanroepen van de functie: { firstName: 'Jan', lastName: 'Janssen' }
+
+function getDetails () {
+    return {firstName: 'Sam', lastName: 'Hemadi'};
+}
+const details = getDetails();
+console.log(getDetails());
